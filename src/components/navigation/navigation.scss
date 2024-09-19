@@ -1,0 +1,37 @@
+.mainNavigation {
+  background-color: rgba(255, 255, 255, 0);
+  display: flex;
+  justify-content: flex-start;
+  padding: 40px;
+
+  .logo {
+    padding-left: 50px;
+  }
+
+  .conlogout {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: 15%;
+    height: 30px;
+
+    button {
+      background-color: #113446;
+      border: 1px solid #35515d;
+      border-radius: 29px;
+      color: #fff;
+      padding: 5px 20px;
+      text-align: center;
+      font-size: 12px;
+      cursor: pointer;
+      font-weight: 500;
+      font-family: "Montserrat";
+      margin: 0px 10px;
+
+      .logout {
+        height: 15px;
+        padding-right: 5px;
+      }
+    }
+  }
+}

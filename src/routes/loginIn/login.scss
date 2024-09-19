@@ -1,0 +1,128 @@
+.login {
+  height: 100vh;
+  width: 100%;
+  background: url("../../assets/door.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .container {
+    background-color: rgba(17, 52, 70, 0.95);
+    border-radius: 10px;
+    border-color: #35515d;
+    height: 350px;
+    width: 790px;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+      font-size: 48px;
+      font-weight: 500;
+      margin-top: 35px;
+      margin-bottom: 10px;
+      color: white;
+      text-align: center;
+    }
+    h3 {
+      font-size: 1.5em;
+      letter-spacing: 0.041em;
+      color: white;
+      text-align: center;
+      font-weight: 500;
+      margin-top: 5px;
+      margin-bottom: 10px;
+    }
+
+    .inputGameCode {
+      display: flex;
+      align-items: center;
+      width: 60%;
+
+      & input {
+        background-color: #3a4e5a;
+        border-radius: 29px;
+        border-color: #fff;
+        font-size: 1em;
+        font-weight: 400;
+        width: 100%;
+        min-height: 50px;
+        padding-left: 20px;
+        margin-top: 10px;
+      }
+
+      & input::placeholder {
+        color: white;
+      }
+
+      & input:focus {
+        border-color: white;
+        box-shadow: 0 0 6px #ffffff;
+      }
+
+      .question {
+        .formlogo {
+          margin-top: 5px;
+          margin-left: -40px;
+        }
+      }
+    }
+
+    .buttons {
+      display: flex;
+      margin: 15px;
+      width: 60%;
+      justify-content: space-around;
+
+      .test {
+        width: 49%;
+        height: 58px;
+        border-radius: 29px;
+        margin: 0px;
+        font-size: 1em;
+        border-width: 0px;
+        background-image: linear-gradient(#75838b, #3b4246);
+
+        background-blend-mode: normal;
+        color: white;
+      }
+      .logfinger {
+        display: flex;
+        width: 49%;
+        .loginButton {
+          width: 100%;
+          height: 58px;
+          border-width: 0px;
+          border-radius: 29px;
+          margin: 0px;
+          font-size: 1em;
+          background-image: linear-gradient(#2c5167, #2c5167);
+          color: #788b96;
+
+          .finger {
+            width: 15px;
+            margin-left: 5px;
+          }
+        }
+      }
+    }
+  }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 30px;
+    h3 {
+      color: white;
+      font-weight: 400;
+    }
+  }
+}
